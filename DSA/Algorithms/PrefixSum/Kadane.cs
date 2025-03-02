@@ -1,4 +1,4 @@
-namespace DSA.Algorithms.Arrays
+namespace DSA.Algorithms.PrefixSum
 {
     public class Kadane
     {

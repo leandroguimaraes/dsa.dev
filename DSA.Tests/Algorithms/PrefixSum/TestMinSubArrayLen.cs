@@ -1,6 +1,6 @@
-using DSA.Algorithms.Arrays;
+using DSA.Algorithms.PrefixSum;
 
-namespace DSA.Tests.Algorithms.Arrays
+namespace DSA.Tests.Algorithms.PrefixSum
 {
     public class TestMinSubArrayLen
     {
