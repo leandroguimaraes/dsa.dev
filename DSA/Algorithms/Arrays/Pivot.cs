@@ -2,6 +2,7 @@ namespace DSA.Algorithms.Arrays
 {
     public class Pivot
     {
+        // https://leetcode.com/problems/find-the-pivot-integer/description/
         public static int Run(int input)
         {
             var length = input + 1;

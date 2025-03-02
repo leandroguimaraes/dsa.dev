@@ -2,6 +2,7 @@ namespace DSA.Algorithms.Arrays
 {
     public class Kadane
     {
+        // https://en.wikipedia.org/wiki/Maximum_subarray_problem
         public static int Run(int[] arr)
         {
             var length = arr.Length;

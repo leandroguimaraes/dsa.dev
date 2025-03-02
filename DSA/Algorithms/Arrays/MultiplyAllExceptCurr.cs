@@ -2,6 +2,7 @@ namespace DSA.Algorithms.Arrays
 {
     public class MultiplyAllExceptCurr
     {
+        // https://leetcode.com/problems/product-of-array-except-self/description/
         public static int[] Run(int[] arr)
         {
             var length = arr.Length;
