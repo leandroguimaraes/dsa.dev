@@ -1,5 +1,9 @@
+// https://code.visualstudio.com/docs/reference/default-settings
 {
   "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.detectIndentation": false
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  }
 }
