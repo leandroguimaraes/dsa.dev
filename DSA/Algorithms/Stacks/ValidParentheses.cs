@@ -20,7 +20,7 @@ namespace DSA.Algorithms.Stacks
         {
           stack.Push(letter);
         }
-        else if (stack.Any() && stack.Peek() == validChars[letter])
+        else if (stack.Count > 0 && stack.Peek() == validChars[letter])
         {
           stack.Pop();
         }
