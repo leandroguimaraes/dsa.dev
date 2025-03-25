@@ -3,6 +3,7 @@ namespace DSA.Algorithms.ArraysAndHashing
   public class ValidAnagram
   {
     // https://leetcode.com/problems/valid-anagram/description/
+    // https://www.youtube.com/watch?v=9UtInBqnCgA
     public static bool Run(string s, string t)
     {
       var sHashMap = StrToDictionary(s);

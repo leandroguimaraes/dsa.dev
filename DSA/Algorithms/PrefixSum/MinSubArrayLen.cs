@@ -3,6 +3,7 @@ namespace DSA.Algorithms.PrefixSum
   public class MinSubArrayLen
   {
     // https://leetcode.com/problems/minimum-size-subarray-sum
+    // https://www.youtube.com/watch?v=aYqYMIqZx5s
     public static int Run(int target, int[] nums)
     {
       var length = nums.Length;

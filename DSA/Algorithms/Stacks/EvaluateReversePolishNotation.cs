@@ -5,6 +5,7 @@ namespace DSA.Algorithms.Stacks
   public class EvaluateReversePolishNotation
   {
     // https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
+    // https://www.youtube.com/watch?v=iu0082c4HDE
     public static int Run(string[] tokens)
     {
       var operators = new Dictionary<string, Func<int, int, int>>()

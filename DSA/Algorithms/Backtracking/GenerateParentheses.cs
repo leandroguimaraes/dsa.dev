@@ -3,6 +3,7 @@ namespace DSA.Algorithms.Backtracking
   public class GenerateParentheses
   {
     // https://leetcode.com/problems/generate-parentheses/description/
+    // https://www.youtube.com/watch?v=s9fokUqJ76A
     public static string[] Run(int n)
     {
       var result = Backtracking(n);

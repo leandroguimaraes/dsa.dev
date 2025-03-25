@@ -3,6 +3,7 @@ namespace DSA.Algorithms.PrefixSum
   public class Kadane
   {
     // https://en.wikipedia.org/wiki/Maximum_subarray_problem
+    // https://www.youtube.com/watch?v=5WZl3MMT0Eg
     public static int Run(int[] arr)
     {
       var length = arr.Length;

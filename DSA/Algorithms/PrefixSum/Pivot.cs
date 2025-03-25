@@ -3,6 +3,7 @@ namespace DSA.Algorithms.PrefixSum
   public class Pivot
   {
     // https://leetcode.com/problems/find-the-pivot-integer/description/
+    // https://www.youtube.com/watch?v=q3UOiMJ1-7Q
     public static int Run(int input)
     {
       var length = input + 1;

@@ -3,6 +3,7 @@ namespace DSA.Algorithms.TwoPointers
   public class HappyNumber
   {
     // https://leetcode.com/problems/happy-number/description/
+    // https://www.youtube.com/shorts/73l43ouxp68
     public static bool Run(int n)
     {
       var slow = n;

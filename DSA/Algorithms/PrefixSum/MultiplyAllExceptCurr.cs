@@ -3,6 +3,7 @@ namespace DSA.Algorithms.PrefixSum
   public class MultiplyAllExceptCurr
   {
     // https://leetcode.com/problems/product-of-array-except-self/description/
+    // https://www.youtube.com/watch?v=bNvIQI2wAjk
     public static int[] Run(int[] arr)
     {
       var length = arr.Length;

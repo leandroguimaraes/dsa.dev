@@ -5,6 +5,7 @@ namespace DSA.Algorithms.PrefixSum
     private readonly int[][] sumMatrix;
 
     // https://leetcode.com/problems/range-sum-query-2d-immutable/description/
+    // https://www.youtube.com/watch?v=KE8MQuwE2yA
     public RangeSumQuery2DImmutable(int[][] matrix)
     {
       var rowLength = matrix.Length + 1;

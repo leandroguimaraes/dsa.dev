@@ -3,6 +3,7 @@ namespace DSA.Algorithms.Stacks
   public class CarFleet
   {
     // https://leetcode.com/problems/car-fleet/description/
+    // https://www.youtube.com/watch?v=Pr6T-3yB9RM
     public static int Run(int target, int[] position, int[] speed)
     {
       var length = position.Length;

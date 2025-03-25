@@ -3,6 +3,7 @@ namespace DSA.Algorithms.ArraysAndHashing
   public class TwoSum
   {
     // https://leetcode.com/problems/two-sum/description/
+    // https://www.youtube.com/watch?v=KLlXCFG5TnA
     public static int[] Run(int[] nums, int target)
     {
       var length = nums.Length;

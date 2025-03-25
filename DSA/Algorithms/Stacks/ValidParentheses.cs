@@ -3,6 +3,7 @@ namespace DSA.Algorithms.Stacks
   public class ValidParentheses
   {
     // https://leetcode.com/problems/valid-parentheses/description/
+    // https://www.youtube.com/watch?v=WTzjTskDFMg
     public static bool Run(string input)
     {
       var validChars = new Dictionary<char, char>()

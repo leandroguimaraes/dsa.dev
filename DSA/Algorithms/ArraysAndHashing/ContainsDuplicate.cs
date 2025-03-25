@@ -3,6 +3,7 @@ namespace DSA.Algorithms.ArraysAndHashing
   public class ContainsDuplicate
   {
     // https://leetcode.com/problems/contains-duplicate/description/
+    // https://www.youtube.com/watch?v=3OamzN90kPg
     public static bool Run(int[] nums)
     {
       var hashSet = new HashSet<int>();

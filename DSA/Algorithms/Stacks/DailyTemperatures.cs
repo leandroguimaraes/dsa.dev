@@ -3,6 +3,7 @@ namespace DSA.Algorithms.Stacks
   public class DailyTemperatures
   {
     // https://leetcode.com/problems/daily-temperatures/description/
+    // https://www.youtube.com/watch?v=cTBiBSnjO3c
     public static int[] Run(int[] temperatures)
     {
       var length = temperatures.Length;
